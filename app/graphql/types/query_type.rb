@@ -13,7 +13,7 @@ module Types
             }
           }
         }
-        )
+        ).parsed_response.to_json
     end
   end
 end
